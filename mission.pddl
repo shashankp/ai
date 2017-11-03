@@ -1,0 +1,8 @@
+(define (problem mission)
+    (:domain space-port)
+    (:objects earth mars enterprise)
+    (:init (planet earth)
+           (planet mars)
+           (ship enterprise)
+           (at enterprise earth))
+    (:goal (at enterprise mars)))
